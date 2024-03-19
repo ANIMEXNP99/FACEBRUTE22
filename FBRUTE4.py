@@ -50,7 +50,6 @@ def is_this_a_password(identifier, index, password):
     return False
 
 if __name__ == "__main__":
-  print('Owner name : Nikesh (Strawhat Luffy')
     print('\n---------- Welcome To FaceBrute ----------\n')
     if not os.path.isfile(PASSWORD_FILE):
         print("Password file is not exist: ", PASSWORD_FILE)
